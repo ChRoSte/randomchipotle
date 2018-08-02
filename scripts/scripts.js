@@ -93,7 +93,7 @@ function getRice() {
 
 //meat selection
 function getMeat() {
-    const MEAT_TYPE = ["Chicken", "Steal", "Barbacoa", "Carnitas"];
+    const MEAT_TYPE = ["Chicken", "Steak", "Barbacoa", "Carnitas"];
     let selectedMeat = selectRandomMeat();
     return selectedMeat;
     
